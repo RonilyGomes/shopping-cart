@@ -1,0 +1,42 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type ImagesType {
+  id: ID!
+  name: String!
+}
+
+type ProductsType {
+  id: ID!
+  name: String!
+  stock: Int!
+  main_image: String!
+  value: Float!
+  created_at: DateTime!
+  images: [ImagesType!]
+}
+
+"""
+A date-time string at UTC, such as 2019-12-03T09:54:33Z, compliant with the date-time format.
+"""
+scalar DateTime
+
+type OrdersType {
+  quantity: String
+  productIds: String
+}
+
+type Query {
+  products: [ProductsType!]!
+  productById(id: ID!): ProductsType!
+}
+
+type Mutation {
+  addOrder(input: OrdersInput!): OrdersType!
+}
+
+input OrdersInput {
+  quantity: String!
+  productIds: String!
+}
