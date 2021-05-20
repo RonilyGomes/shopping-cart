@@ -76,3 +76,20 @@ Em sequência, execute o comando abaixo e  altere a variável `TYPEORM_HOST` no 
 ```sh
 docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' db_shopping_cart
 ```
+
+### Testes
+
+Para realizar a compra com sucesso é necessário informar os dados abaixo:
+
+```sh
+Número do cartão: 5121 2621 8081 4518
+CVC: 703
+```
+
+Para realizar a compra com falha é necessário informar os dados abaixo:
+
+```sh
+Número do cartão: 5272 9447 7610 8184
+CVC: 742
+```
+
