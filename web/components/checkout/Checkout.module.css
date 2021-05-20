@@ -1,0 +1,20 @@
+.primaryButton {
+    background: #3483FA;
+    border-color: #3483FA;
+    height: 42px;
+    width: 150px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.primaryButton:hover, .primaryButton:active, .primaryButton:focus {
+    background: #3483FA;
+    border-color: #3483FA;
+}
+
+.primaryButton span {
+    color: #FFF;
+}

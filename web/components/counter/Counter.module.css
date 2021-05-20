@@ -1,0 +1,8 @@
+.wrapperCounter {
+    padding: 4px 12px;
+    border: 1px solid #EAEAEA;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+

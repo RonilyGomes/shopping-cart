@@ -1,0 +1,85 @@
+@import '~antd/dist/antd.css';
+
+/* Resets */
+html,
+body {
+  background-color: #EBEBEB;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.disabled {
+  opacity: .3;
+  pointer-events: none;
+  cursor: default;
+}
+
+/* Override library style */
+.ant-input-search {
+  width: 80%;
+  border-color: transparent;
+}
+
+.ant-input-search input {
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-right: none;
+}
+
+.ant-input-search button {
+  border-color: rgba(0, 0, 0, .2);
+}
+
+.anticon-shopping-cart svg {
+  width: 24px;
+  height: 24px;
+  color: #333;
+}
+
+.ant-divider-horizontal {
+  margin: 12px 0;
+}
+
+.ant-modal-header {
+  background-color: #3483FA;
+}
+
+.ant-modal-title {
+  color: #FFF;
+}
+
+.ant-modal-close-icon {
+  color: #FFF;
+}
+
+/* Custom styles */
+.shoppingCartEmptyWrapper main {
+  width: 100%;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.shoppingCartEmptyWrapper main > h1 {
+  color: #667;
+  margin-bottom: 0;
+}
+
+.shoppingCartEmptyWrapper main > p {
+  color: #999;
+  width: 360px;
+  margin-bottom: 0;
+  text-align: center;
+}

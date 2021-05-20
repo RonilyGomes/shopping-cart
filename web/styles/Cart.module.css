@@ -1,0 +1,85 @@
+.wrapperContent {
+    width: 1100px;
+    border-radius: 4px;
+    padding: 32px 36px;
+    background: #FFF;
+}
+
+.wrapperTitle {
+    align-items: center;
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.wrapperTitle h1 {
+    font-size: 20px;
+    color: inherit;
+    margin-bottom: 5px;
+}
+
+.wrapperTitle svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.wrapperTotal {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+.wrapperTotal h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.wrapperTotalValue {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.wrapperTotalValue p {
+    font-size: 16px;
+    color: rgba(0, 0, 0, .80);
+    margin-bottom: 8px;
+    display: flex;
+}
+
+.wrapperTotalValue span {
+    font-size: 18px;
+}
+
+.wrapperTotalValue p > span {
+    margin-bottom: 12px;
+    font-size: inherit;
+    color: #00A650 !important;
+    margin-left: 4px;
+}
+
+.primaryButton {
+    background: #3483FA;
+    border-color: #3483FA;
+    height: 42px;
+    width: 200px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+.primaryButton:hover, .primaryButton:active, .primaryButton:focus {
+    background: #3483FA;
+    border-color: #3483FA;
+}
+
+.primaryButton span {
+    color: #FFF !important;
+}

@@ -1,0 +1,120 @@
+.wrapperContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1100px;
+    border-radius: 4px;
+    padding: 20px;
+    background: #FFF;
+}
+
+.productImages {
+    display: inherit;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 10%;
+}
+
+.productImages img {
+    padding: 12px !important;
+    border: 1px solid #EAEAEA !important;
+    cursor: pointer;
+}
+
+.productImageShowing {
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 60px;
+}
+
+.productDetails {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #EAEAEA;
+}
+
+.productDetails h1, .productDetails h2 {
+    font-size: 22px;
+    color: rgba(0, 0, 0, .80);
+    margin-bottom: 12px;
+}
+
+.productDetails h2 > span {
+    font-size: 36px !important;
+    color: inherit !important;
+    margin-bottom: 0;
+}
+
+.productDetails p {
+    font-size: 16px;
+    color: rgba(0, 0, 0, .80);
+    margin-bottom: 8px;
+    display: flex;
+}
+
+.productDetails p > span {
+    margin-bottom: 12px;
+    font-size: inherit;
+    color: #00A650 !important;
+}
+
+.productDetails p > span > svg {
+    position: relative;
+    top: 4px;
+    margin-right: 8px;
+}
+
+.productDetails span:first-child {
+    font-size: 15px;
+    color: rgba(0, 0, 0, .45);
+}
+
+.wrapperQuantitySelected {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 20px;
+}
+
+.wrapperQuantitySelected span {
+    font-size: 16px;
+    color: rgba(0, 0, 0, .80);
+}
+
+.wrapperQuantitySelected span:last-child {
+    color: rgba(0, 0, 0, .45);
+}
+
+.quantitySelected {
+    align-items: center;
+    border: none !important;
+}
+
+.ant-select-selector {
+    border: none !important;
+}
+
+.primaryButton {
+    background: #3483FA;
+    border-color: #3483FA;
+    height: 42px;
+    width: 100%;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.primaryButton:hover, .primaryButton:active, .primaryButton:focus {
+    background: #3483FA;
+    border-color: #3483FA;
+}
+
+.primaryButton span {
+    color: #FFF !important;
+}
